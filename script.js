@@ -104,3 +104,8 @@ equalsButtons.addEventListener('click', button => {
     calculator.compute();
     calculator.updateDisplay();
 });
+
+allClearButtons.addEventListener('click', button => {
+    calculator.clear();
+    calculator.updateDisplay();
+});
